@@ -5,5 +5,8 @@
 }
 
 .mainText{
-font-family: 'Roboto', sans-serif;
+ font-family: 'Roboto', sans-serif;
+ text-shadow: 1px 1px 2px #9E9E9E;
+ color: #2196F3;
 }
+
