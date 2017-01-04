@@ -1,1 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
 
+.headerMain{
+ color : blue; 
+}
+
+.mainText{
+font-family: 'Roboto', sans-serif;
+}
