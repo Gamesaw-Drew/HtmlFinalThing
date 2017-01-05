@@ -16,3 +16,10 @@
     padding: 4px;
     box-shadow: 2px 2px 4px 0px #9E9E9E;
 }
+
+.btnMain:hover {
+    color: white;
+    background-color: #607D8B;
+    padding: 5px;
+    box-shadow: 2px 2px 8px 0px #9E9E9E;
+}
