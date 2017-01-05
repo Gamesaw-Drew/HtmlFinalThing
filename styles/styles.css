@@ -15,6 +15,7 @@
     background-color: #607D8B;
     padding: 4px;
     box-shadow: 2px 2px 4px 0px #9E9E9E;
+    background-image: "assets/image.png";
 }
 
 .btnMain:hover {
