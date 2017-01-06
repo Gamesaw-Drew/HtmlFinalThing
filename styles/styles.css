@@ -23,16 +23,16 @@
     box-shadow: 2px 2px 8px 0px #9E9E9E;
 }
 
-.btnanim {
-    width: 100px;
-    height: 100px;
-    background: red;
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
+.btnAnim {
+    width: 200px;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+	top: 0px;
 }
 
-.btnanim:hover {
+.btnAnim:hover {
     width: 300px;
+    top: -10px;
 }
 
 .diamondBackAnim {
