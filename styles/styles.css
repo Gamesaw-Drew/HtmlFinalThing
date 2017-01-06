@@ -25,9 +25,12 @@
 
 .btnAnim {
     width: 200px;
+    top: 0px;
     -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
     transition: width 1s;
-	top: 0px;
+    -webkit-transition: top 1s; /* For Safari 3.1 to 6.0 */
+    transition: top 1s
+
 }
 
 .btnAnim:hover {
