@@ -23,26 +23,16 @@
     box-shadow: 2px 2px 8px 0px #9E9E9E;
 }
 
-.btnAnim {
-width: 200px;
-top: 0px;
+.btnanim {
+    width: 200px;
+    background: red;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
 }
 
-.btnAnim:hover {
- animation-name: btnHover;
- animation-duration: 1s;
- animation-timing-function: ease-in-out;
+.btnanim:hover {
+    width: 300px;
 }
-@keyframes btnHover {
-	0%{
-	    width: 200px;
-	    top: 0px;
-	}
-	100%{
-	    width: 300px;
- 	    top: -10px;
-}
-
 
 .diamondBackAnim {
 
