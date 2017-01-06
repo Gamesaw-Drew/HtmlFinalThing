@@ -23,14 +23,13 @@
     box-shadow: 2px 2px 8px 0px #9E9E9E;
 }
 
-.btnanim {
+.btnAnim {
     width: 200px;
-    background: red;
     -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
     transition: width 1s;
 }
 
-.btnanim:hover {
+.btnAnim:hover {
     width: 300px;
 }
 
