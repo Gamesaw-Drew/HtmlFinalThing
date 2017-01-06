@@ -33,7 +33,7 @@
     width: 300px;
 }
 
-.btnAnim:focus{
+.btnAnim:active{
    width: 250px
 }
 
