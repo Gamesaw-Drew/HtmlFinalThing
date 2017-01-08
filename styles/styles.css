@@ -195,3 +195,37 @@ Define the keyframe and changes
 
 
 }
+
+.main{
+	
+	position: relative;
+	
+	animation-name: moveIn;
+
+    animation-duration: .5s;
+
+    animation-timing-function: ease-out;
+
+    animation-play-state: running;
+	
+}
+
+@keyframes moveIn {
+
+    0% {
+
+		transform: translate(0px, 50px);
+		opacity: 0;
+
+    }
+
+    100% {
+
+		transform: translate(0px, 0px);
+		opacity: 100;
+			
+
+    }
+
+
+}
