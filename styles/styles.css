@@ -14,27 +14,33 @@
     color: white;
     background-color: #607D8B;
     padding: 4px;
-    box-shadow: 2px 2px 4px 0px #9E9E9E;
+    box-shadow: 0px 2px 4px 0px #9E9E9E;
 }
 
 .btnMain:hover {
     color: white;
-    background-color: #607D8B;
-    box-shadow: 2px 2px 8px 0px #9E9E9E;
 }
 
 .btnAnim {
     width: 200px;
-    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
-    transition: width 1s;
+    -webkit-transition: width .5s; /* For Safari 3.1 to 6.0 */
+    transition: all .5s; 
 }
 
 .btnAnim:hover {
-    width: 300px;
+   width: 300px;
+   box-shadow: 0px 3px 6px 0px #6A6A6A;
+   background-color: darkslategray;
 }
 
 .btnAnim:active{
-   width: 250px
+   width: 250px;
+   box-shadow: 0px 2px 6px 0px #6A6A6A;
+   background-color: lightslategray;
+}
+
+.btnAnim:focus{
+	outline: none;
 }
 
 .diamondBackAnim {
