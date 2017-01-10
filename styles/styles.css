@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
 
+body {
+ background-color : #9E9E9E;
+}
+
 .headerMain{
  color : blue; 
 }
 
 .mainText{
  font-family: 'Roboto', sans-serif;
- text-shadow: 1px 1px 2px #9E9E9E;
- color: #FFEB3B;
+ text-shadow: 1px 1px 2px #424242;
+ color: #FFEB3C;
 }
 
 .btnMain {
