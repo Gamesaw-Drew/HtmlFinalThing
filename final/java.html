@@ -13,6 +13,8 @@
 
   <center>
     <div>
+	  <button onclick="window.location.href = '../index.html'" class="btnMain btnAnim">< Back</button>
+
 	  <button onclick="window.location.href = 'index.html'" class="btnMain btnAnim">HOME</button>
 
       <button onclick="window.location.href = 'habitats.html'" class="btnMain btnAnim">ROCK HABITATS</button>
@@ -22,8 +24,6 @@
       <button onclick="window.location.href = 'types.html'" class="btnMain btnAnim">ROCK TYPES</button>
 	  	  
       <button onclick="window.location.href = 'about.html'" class="btnMain btnAnim">ABOUT</button>
-	  
-      <button onclick="window.location.href = 'java.html'" class="btnMain btnAnim">JAVA</button>
     </div>
   </center>
 </nav>
@@ -33,12 +33,17 @@
 </header>
 
 <body style="background-size: cover">
+
   <center>
-	  <h1 class="mainText main">ABOUT</h1>
-	  <h2 class="mainText main">SOURCES:</h2>
-	  
-	  <p class="mainText main">http://www.yurtopic.com/science/nature/images/rocks/Gypsum-rocks2-lrg.jpg</p>
-	  <p class="mainText main">http://club.chicacircle.com/wp-content/uploads/2011/10/Rock-face-1.jpg</p>
+	  <h1 class="mainText mainJava">java xd</h1>
+	  	  
+	  <img class="mainJava" id='gif-diamondback' width='60%' src='assets/diamondback.gif'>
+	  <br>
+	  <img class="mainJava" id='imgmeme' width='60%' src='assets/off.jpg'>
+	  <br>
+	  <button id='buttonxd' onclick="die(document.getElementById('imgmeme'))" class="btnMain btnAnim">TOGGLE</button>
+	  <script src="java/mynamejeff.js"></script>
+
   </center>
 </body>
 </html>
