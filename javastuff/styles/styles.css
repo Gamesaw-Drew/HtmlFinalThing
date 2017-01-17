@@ -216,9 +216,9 @@ Define the keyframe and changes
 	
 	animation-name: moveIn;
 
-    animation-duration: .5s;
+    animation-duration: .2s;
 
-    animation-timing-function: ease-out;
+    animation-timing-function: linear;
 
     animation-play-state: running;
 	
@@ -229,48 +229,12 @@ Define the keyframe and changes
     0% {
 
 		transform: translate(0px, 50px);
-		opacity: 0;
 
     }
 
     100% {
 
-		transform: translate(0px, 0px);
-		opacity: 100;
-			
-
-    }
-
-
-}
-
-.mainJava{
-	
-	position: relative;
-	
-	animation-name: moveIn2;
-
-    animation-duration: .2s;
-
-    animation-timing-function: linear;
-
-    animation-play-state: running;
-	
-}
-
-@keyframes moveIn2 {
-
-    0% {
-
-		transform: translate(0px, 50px);
-
-    }
-
-    100% {
-
-		transform: translate(0px, 0px);
-		opacity: 100;
-			
+		transform: translate(0px, 0px);			
 
     }
 

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
 
 body {
- background-color: #607D8B;
+ background-color : #9E9E9E;
 }
 
 .headerMain{
@@ -16,9 +16,9 @@ body {
 
 .btnMain {
     color: white;
-    background-color: #9E9E9E;
+    background-color: #607D8B;
     padding: 4px;
-    box-shadow: 0px 2px 4px 0px #000000;
+    box-shadow: 0px 2px 4px 0px #9E9E9E;
 }
 
 .btnMain:hover {
@@ -230,39 +230,6 @@ Define the keyframe and changes
 
 		transform: translate(0px, 50px);
 		opacity: 0;
-
-    }
-
-    100% {
-
-		transform: translate(0px, 0px);
-		opacity: 100;
-			
-
-    }
-
-
-}
-
-.mainJava{
-	
-	position: relative;
-	
-	animation-name: moveIn2;
-
-    animation-duration: .2s;
-
-    animation-timing-function: linear;
-
-    animation-play-state: running;
-	
-}
-
-@keyframes moveIn2 {
-
-    0% {
-
-		transform: translate(0px, 50px);
 
     }
 

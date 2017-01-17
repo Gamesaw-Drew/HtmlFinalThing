@@ -243,36 +243,3 @@ Define the keyframe and changes
 
 
 }
-
-.mainJava{
-	
-	position: relative;
-	
-	animation-name: moveIn2;
-
-    animation-duration: .2s;
-
-    animation-timing-function: linear;
-
-    animation-play-state: running;
-	
-}
-
-@keyframes moveIn2 {
-
-    0% {
-
-		transform: translate(0px, 50px);
-
-    }
-
-    100% {
-
-		transform: translate(0px, 0px);
-		opacity: 100;
-			
-
-    }
-
-
-}
