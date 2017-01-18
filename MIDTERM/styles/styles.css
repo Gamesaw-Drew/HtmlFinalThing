@@ -1,0 +1,130 @@
+/*I AM VERY VERY SORRY ABOUT THIS I WENT A LITTLE TOO FAR BUT ITS OK*/
+
+/*Imports the ROBOTO font from the google fonts api*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i');
+
+h1{
+	color: #ff877e;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 1px 1px 2px #424242;
+}
+
+nav{
+}
+
+ul, li{
+	display:grid;
+	width:65%
+}
+
+.btn {
+	/*This turns on the transition effect for each item*/
+	transition: all .5s;
+	background-color: #9E9E9E;
+	border-width: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	box-shadow: 0 1px 2px black;
+	width: 200px;
+	height: 60px;
+	color: white;
+
+}
+
+body{
+	background-size: cover;
+}
+
+/*Button Hover*/
+.btn:hover{
+	background-color: #cecece;
+	border-radius: 0px;
+	box-shadow: 0 2px 4px black;
+	color: black;
+}
+
+/*Button Clicked Down*/
+.btn:active{
+	border-radius: 20px;
+	box-shadow: 0 1px 2px black;
+
+}
+
+/*Put this to remove the blue outline around selected buttons*/
+.btn:focus{
+	outline-width: 0px;
+}
+
+.mainText{
+ font-family: 'Roboto', sans-serif;
+ text-shadow: 1px 1px 2px #424242;
+ color: #FFEB3B;
+ font-size: 20px;
+}
+
+.fromLeft{
+	opacity:0;
+	position: relative;
+	animation-name: fromLeftAnim;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fromLeftAnim {
+    0% {
+		transform: translate(-30px, 0px);
+		opacity: 0;
+    }
+    100% {
+		transform: translate(0px, 0px);
+		opacity: 100;
+    }
+}
+
+.fromTop{
+	
+	position: relative;
+	animation-name: fromTopAnim;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+@keyframes fromTopAnim {
+    0% {
+		transform: translate(0px, -20px);
+		opacity: 0;
+    }
+    100% {
+		transform: translate(0px, 0px);
+		opacity: 100;
+    }
+}
+
+.putinBig{
+	
+	position: relative;
+	animation-name: putinBigAnim;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+
+@keyframes putinBigAnim {
+    0% {
+		transform: scale(1);
+		opacity: 100;
+    }
+    100% {
+		transform: translate(-50%, -50%) scale(1.5);
+		opacity: 100;
+    }
+}

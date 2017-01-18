@@ -1,0 +1,85 @@
+<!--I'm concerned with how far I went on this...-->
+
+<!doctype html>
+<html>
+	<head>
+		<title>how to take midterm</title>
+		<!--Import stylesheet-->
+		<link rel="stylesheet" href="styles/styles.css">
+		
+	</head>
+	
+	<!--Each item has a seperate style animation-delay to make it look like sequential-->
+
+	<header>
+		<center>
+			<!--NAV BAR-->
+			<nav class="fromTop">
+				<!--Bring you to # page just brings you to the page u are currently on-->
+				<button class="btn fromTop" style="animation-delay: .3s;" onclick="document.getElementById('putin').style.webkitAnimationName = 'fromLeftAnim';">Home</button>
+				<button class="btn fromTop" style="animation-delay: .2s;" onclick="window.location.href = '#'">Big Picture</button>
+				<button class="btn fromTop" style="animation-delay: .1s;" onclick="window.location.href = '#'">Text</button>
+				<button class="btn fromTop" style="animation-delay: .1s;" onclick="window.location.href = '#'">Thumbnails</button>
+				<button class="btn fromTop" style="animation-delay: .2s;" onclick="window.location.href = 'form.html'">Form</button>
+				<button class="btn fromTop" style="animation-delay: .3s;" onclick="window.location.href = '#'">Small Box</button>
+			</nav>
+			<h1 class="fromTop">HOW TO TAKE MIDTERM</h1>
+		</center>
+	</header>
+	<body background = "https://static.vecteezy.com/system/resources/previews/000/094/491/original/polygonal-texture-background-vector.jpg">
+			<h1 class="fromLeft">Features</h1>
+
+			<!--TABLE-->
+			<ul>
+			<li class="fromLeft mainText" style="animation-delay: .1s;">Clean and fully functional / adjustable Photoshop file</li>
+			<li class="fromLeft mainText" style="animation-delay: .15s;">Three themes included: Lime, Barry and Business</li>
+			<li class="fromLeft mainText" style="animation-delay: .2s;">Commented HTML, CSS, and Javascript code</li>
+			<li class="fromLeft mainText" style="animation-delay: .25s;">{SOMETHING I CANT READ}box for image zooms included</li>
+			<li class="fromLeft mainText" style="animation-delay: .3s;">Cool sliding effect based on mootools</li>
+			<li class="fromLeft mainText" style="animation-delay: .35s;">Working contact form based on AJAX and PHP that actually sends an e-mail!!!</li>
+			<li class="fromLeft mainText" style="animation-delay: .4s;">Valid HTMl/CSS layout tested in all major browsers</li>
+			
+			</ul>
+			<!--IMAGE-->
+			<img id="putin" style="float:right" class="fromLeft" src="http://fullredneck.wpengine.com/wp-content/uploads/2016/04/Funny-Russia-Meme-20.jpg">
+			
+			<!--when clicking this, make the putin picture bigger, then clicking again makes it smaller-->
+			<button id="putinbtn" style="float:right;top:398px;left:198px;position:relative" class="fromLeft btn" onclick="makePutinGreat()">Read More ></button>
+			
+			<p class="fromLeft mainText" style="animation-delay: .5s;">This is going down in Powerschool<p>
+			<p class="fromLeft mainText" style="animation-delay: .55s;">If you want to get an A in the class</p>
+			<p class="fromLeft mainText" style="animation-delay: .6s;">You have to make a website that is good!</p>
+			<p class="fromLeft mainText" style="animation-delay: .65s;">Now follow my lead</p>
+			<p class="fromLeft mainText" style="animation-delay: .7s;">and make a site</p>
+			<p class="fromLeft mainText" style="animation-delay: .75s;">Be careful not to make an error!</p>
+			
+			<h1 class="fromLeft mainText" style="animation-delay: .8s;">Check out the other themes included:</h1>
+			<ul>
+			<li class="fromLeft mainText" style="animation-delay: .85s;"><a href="#">Berry Theme</a></li>
+			<li class="fromLeft mainText" style="animation-delay: .9s;"><a href="#">Business Theme</a></li>
+			</ul>
+			<!--For the script for the putin picture-->
+			<script>
+				// isOn is the bool variable that is stored to know weather it is set to be big or not
+				isOn = new Boolean(false);
+				object = document.getElementById('putin');
+				btn = document.getElementById('putinbtn');
+				function makePutinGreat(){
+					// If it is small, make it big by setting the animation name to putinBigAnimation
+					// which is set in the css
+					if(isOn){
+						object.style.webkitAnimationName = 'putinBigAnim';
+						btn.innerHTML = "< Back";
+						isOn = false;
+						console.log('off');
+					}
+					// Other wise, set it to the regular fromLeftAnim
+					else{
+						object.style.webkitAnimationName = 'fromLeftAnim';
+						btn.innerHTML = "Read More >";
+						isOn = true;
+						console.log('on');
+					}
+				}</script>
+	</body>
+</html>
